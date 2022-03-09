@@ -1,5 +1,5 @@
 {
-    "name": "wyrihaximus/react-guzzle-http-client",
+    "name": "another-user-me/react-guzzle-http-client",
     "description": "Asynchronous adapter for different Guzzle versions powered by react/http-client",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^5.4|^7.0",
+        "php": "^8.0",
         "clue/buzz-react": "^2.0 || ^1.4",
         "clue/http-proxy-react": "^1.2",
         "clue/socks-react": "^1.0.0",
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "WyriHaximus\\React\\Guzzle\\HttpClient\\": "src/"
+            "another-user-me\\React\\Guzzle\\HttpClient\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "WyriHaximus\\React\\Tests\\Guzzle\\HttpClient\\": "tests/"
+            "another-user-me\\React\\Tests\\Guzzle\\HttpClient\\": "tests/"
         }
     },
     "config": {
